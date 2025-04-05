@@ -1,0 +1,54 @@
+---
+title: "Example Blog Post"
+author: "Insert Author's Name Here"
+date: "8/20/2024"
+categories: [template, fantasy football]
+image: "placeholder.jpg"
+---
+
+This is an example blog post.
+Note: The post image was obtained from [here](https://www.flickr.com/photos/velo_city/1173356226).
+
+# Preamble {#sec-preamble}
+
+## Load Libraries {#sec-loadLibraries}
+
+```{r}
+#| message: false
+#| warning: false
+
+library("petersenlab") #located here: https://github.com/DevPsyLab/petersenlab
+```
+
+# Abstract {#sec-abstract}
+
+# Background {#sec-background}
+
+## The Present Study {#sec-presentStudy}
+
+In the present study, I examined...
+To my knowledge, this is the first study to...
+I hypothesized that...
+If the hypothesis is true, I predict that...
+
+# Method {#sec-method}
+
+## Data {#sec-data}
+
+## Statistical Analysis {#sec-statisticalAnalysis}
+
+# Results {#sec-results}
+
+# Discussion {#sec-discussion}
+
+## Strengths and Limitations {#sec-strengthsLimitations}
+
+## Conclusion {#sec-conclusion}
+
+# References {#sec-references}
+
+# Session Info {#sec-sessionInfo}
+
+```{r}
+sessionInfo()
+```
